@@ -2,20 +2,20 @@
 // Google Compute Platform variables
 
 variable network_name {
-  default = "abcnetwork"
-  type = "string"
+  default     = "abcnetwork"
+  type        = "string"
   description = "The network name of the GCP"
 }
 
 variable sub_network_name {
-  default = "mysubnet"
-  type = "string"
+  default     = "mysubnet"
+  type        = "string"
   description = "The subnet name of the GCP"
 }
 
 variable gcp_ip_cidr_range {
-  default = "10.0.0.0/16"
-  type = "string"
+  default     = "10.0.0.0/16"
+  type        = "string"
   description = "The IP CIDR range for Google VPC"
 }
 
