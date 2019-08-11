@@ -13,7 +13,8 @@ terraform apply
 `terraform destroy`
 
 #### Workspace
-```terraform workspace list
+```
+terraform workspace list
 terraform workspace new myworkspace
 terraform workspace select default
 terraform workspace delete myworkspace
@@ -48,10 +49,10 @@ gcloud auth application-default revoke
 gcloud auth application-default login
 ```
 
-#### The command to make sure your machine is connected to GCP, please run,
+#### The command to make sure that your machine is connected to GCP, then please run:
 `gcloud auth application-default print-access-token`
 
-#### Ensure your GCP service account has the following rules attached,
+#### Ensure your GCP service account has the following rules attached:
 - Compute Admin
 - Compute Network Admin
 - Service Account Admin
