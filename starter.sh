@@ -20,7 +20,7 @@ sleep 5
 echo "Run \$terraform plan"
 terraform plan
 
-echo "venkat" | terraform apply
+echo "yes" | terraform apply
 
 sleep 100
 
