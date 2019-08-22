@@ -1,5 +1,5 @@
 # Terraform Notes
-Learning notes from terraform online course
+Learning notes for terraform
 
 ### Major commands
 ```terraform init
